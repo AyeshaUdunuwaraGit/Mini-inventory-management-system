@@ -1,20 +1,47 @@
 {
-    "TEST123": {
-        "product_id": "TEST123",
-        "name": "Test Widget",
-        "stock_quantity": 63,
+    "B001": {
+        "product_id": "B001",
+        "name": "Toys",
+        "stock_quantity": 25,
         "min_threshold": 10,
-        "restock_quantity": 60,
+        "restock_quantity": 20,
         "priority": "high",
-        "category": "high_volume"
+        "category": "low_volume"
     },
-    "LOWP456": {
-        "product_id": "LOWP456",
-        "name": "Low Priority Widget",
-        "stock_quantity": 33,
-        "min_threshold": 2,
-        "restock_quantity": 30,
+    "B002": {
+        "product_id": "B002",
+        "name": "Toys",
+        "stock_quantity": 28,
+        "min_threshold": 10,
+        "restock_quantity": 20,
+        "priority": "high",
+        "category": "low_volume"
+    },
+    "B003": {
+        "product_id": "B003",
+        "name": "Gifts",
+        "stock_quantity": 55,
+        "min_threshold": 10,
+        "restock_quantity": 50,
+        "priority": "high",
+        "category": "low_volume"
+    },
+    "B004": {
+        "product_id": "B004",
+        "name": "Gifts",
+        "stock_quantity": 25,
+        "min_threshold": 8,
+        "restock_quantity": 50,
         "priority": "low",
         "category": "low_volume"
+    },
+    "B005": {
+        "product_id": "B005",
+        "name": "Gifts-lo",
+        "stock_quantity": 55,
+        "min_threshold": 8,
+        "restock_quantity": 55,
+        "priority": "low",
+        "category": "high_volume"
     }
 }

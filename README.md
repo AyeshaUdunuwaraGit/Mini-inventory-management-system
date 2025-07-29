@@ -17,6 +17,44 @@ This is a smart and minimal Inventory Management System built with **FastAPI** a
 
 ---
 
+## 🧰 Tech Stack
+
+- Python 3.9+
+- FastAPI
+- Uvicorn (ASGI server)
+
+---
+
+## ▶️ How to Run 🏃‍♀️
+
+### 1. Activate your virtual environment
+
+```
+ python -m venv venv
+venv\Scripts\activate   # On Windows
+# Or:
+source venv/bin/activate  # On macOS/Linux
+
+```
+
+### 2. 📦 Install dependencies (preferably in a virtual environment):
+
+```bash
+
+pip install fastapi uvicorn
+
+```
+### 3. 🏃‍♀️ Run the FastAPI server:
+
+``` 
+ uvicorn main:app --reload
+
+```
+### 4. 🌐 Open your browser and navigate to:
+
+Swagger UI (interactive API): http://127.0.0.1:8000/docs
+Redoc (alternate docs): http://127.0.0.1:8000/redoc
+
 ## 📂 Project Structure
 
 mini_inventory_management_system/
@@ -136,6 +174,9 @@ Log file containing all key operations with timestamps:
 
 ```
 ---
+
+## Run the Project
+
 
 ## 🧪 Testing
 
