@@ -1,0 +1,20 @@
+{
+    "TEST123": {
+        "product_id": "TEST123",
+        "name": "Test Widget",
+        "stock_quantity": 63,
+        "min_threshold": 10,
+        "restock_quantity": 60,
+        "priority": "high",
+        "category": "high_volume"
+    },
+    "LOWP456": {
+        "product_id": "LOWP456",
+        "name": "Low Priority Widget",
+        "stock_quantity": 33,
+        "min_threshold": 2,
+        "restock_quantity": 30,
+        "priority": "low",
+        "category": "low_volume"
+    }
+}
